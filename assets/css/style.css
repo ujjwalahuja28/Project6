@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --theme-color: #e67e22;
+}
+
+
+/* ====== header css starts here ====== */
+
+
+.navbar-brand{
+    color: var(--theme-color);
+    font-weight: 700;
+    font-size: large;
+}
+.header-list > li{
+    padding: 0 15px;
+}
+.header-list > li a{
+    font-size: medium;
+    font-weight: 400;
+}
+.header-list > li:first-child a{
+    color: var(--theme-color);
+}
+.header-list > li:nth-child(6) a{
+    color: var(--theme-color);
+    background-color: #fff;
+    border: 2px solid var(--theme-color);
+}
+.header-list > li:nth-child(7) a{
+    color: #fff;
+    background-color: var(--theme-color);
+    border: 2px solid transparent; 
+}
+.header-list > li:nth-child(6):hover a{
+    background-color: var(--theme-color);
+    color: #fff;
+}
+.header-list > li:nth-child(7):hover a{
+    background-color: #fff;
+    color: var(--theme-color);
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+/* ====== header css ends here ====== */
+
+
+/* ====== section-banner css starts here ====== */
+
+.banner-content > h2{
+    font-weight: 700;
+    font-size: 55px;
+}
+.order-now > a:first-child{
+    color: #fff;
+    background-color: var(--theme-color);
+    padding: 10px 25px;
+    border: 2px solid transparent;
+
+}
+.order-now > a:nth-child(2){
+    color: var(--theme-color);
+    border: 2px solid var(--theme-color);
+    padding: 10px 25px;
+    background-color: #fff;
+}
+.customer-img > img:first-child{
+    z-index: 1;
+    margin-right: -25px;
+}
+.customer-img > img:nth-child(2){
+    z-index: 9;
+    margin-right: -25px;
+}
+.customer-img-content > p:first-child{
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+.customer-img-content > p:nth-child(2) span{
+    color: var(--theme-color);
+}
+
+/* ====== section-banner css ends here ====== */
+
+
+/* ====== section-support css starts here ====== */
+
+.support > p{
+    font-weight: 600;
+}
+
+/* ====== section-support css ends here ====== */
+
+
+/* ====== section-services css starts here ====== */
+
+.services-head > p{
+    color: var(--theme-color);
+}
+
+/* ====== section-services css ends here ====== */
+
+
+/* ====== section-trending-food css starts here ====== */
+
+.trend-food > p{
+    color: var(--theme-color);
+}
+
+/* slider css starts */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/* slider css ends */
+
+.figure-caption > p:nth-child(2) span{
+    color: var(--theme-color);
+}
+
+/* ====== section-trending food css ends here ====== */
+
+
+/* ====== section-comments css starts here ====== */
+
+.comments > p{
+    color: var(--theme-color);
+} 
+.comment-content > p{
+    margin: 0;
+    font-size: 12px;
+}
+
+/* ====== section-comments css ends here ====== */
+
+
+/* ====== sectioon-reviews css starts here ====== */
+
+.reviews-heading > p:first-child{
+    color: var(--theme-color);
+}
+.star > span > i{
+    color: var(--theme-color);
+}
+
+/* ====== section-reviews css ends here ====== */
+
+
+/* ====== section-discount css starts here ====== */
+ 
+.section-discount{
+    background-color: var(--theme-color);
+    color: #f5d5c6;
+}
+.disc-content > input{
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 100px;
+    outline: 0;
+}
+.disc-content > a{
+    padding: 10px 25px;
+    background-color: #2f3640;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.disc-content > a:hover{
+    color: #2f3640;
+    font-weight: 600;
+    background-color: #fff;
+    border: 2px solid #2f3640;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+
+
+
+/* ====== section-discount css ends here ====== */
